@@ -34,6 +34,12 @@
               "link": "https://yapi.mvmyun.com/"
           },
           {
+            "icon": "./static/images/ssp.png",
+            "name": "账户系统",
+            "desc": "openldap,账户重置平台",
+            "link": "https://ssp.mvmyun.com/"
+        },
+          {
               "icon": "./static/images/mysql.svg",
               "name": "生产Sql发布平台",
               "desc": "生产Sql发布平台",
