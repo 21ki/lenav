@@ -39,17 +39,17 @@
             "desc": "openldap,账户重置平台",
             "link": "https://ssp.mvmyun.com/"
         },
+        {
+            "icon": "./static/images/chandao.png",
+            "name": "禅道",
+            "desc": "BUG管理平台",
+            "link": "http://192.168.1.112/"
+        },
           {
               "icon": "./static/images/mysql.svg",
               "name": "生产Sql发布平台",
               "desc": "生产Sql发布平台",
               "link": "http://127.0.0.1:9122/"
-          },
-          {
-              "icon": "./static/images/showdoc.png",
-              "name": "Showdoc",
-              "desc": "[内部使用]在线API文档、技术文档工具",
-              "link": "http://127.0.0.1:4999/web/#/"
           },
           {
               "icon": "./static/images/showdoc.png",
