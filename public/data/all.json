@@ -70,5 +70,42 @@
               "link": "https://harbor.mvmyun.com/"
           }
       ]
+  },
+  "dev": {
+      "title": "测试环境地址",
+      "name": "dev",
+      "nav": [
+          {
+              "icon": "./static/images/tomcat.png",
+              "name": "ps-back-web",
+              "desc": "ps后台",
+              "link": "https://ps-back-web-dev.mvmyun.com/actuator/health"
+          },
+          {
+              "icon": "./static/images/tomcat.png",
+              "name": "ps-data-crs",
+              "desc": "ps-data-crs",
+              "link": "https://ps-data-crs-dev.mvmyun.com/actuator/health"
+          },
+          {
+              "icon": "./static/images/spring.png",
+              "name": "mvm-drp-admin",
+              "desc": "mvm-drp后台",
+              "link": "https://mvm-drp-admin-dev.mvmyun.com/actuator/health"
+          }
+      ]
+  },
+ 
+  "pro": {
+      "title": "阿里云环境地址",
+      "name": "pro",
+      "nav": [
+          {
+              "icon": "./static/images/spring.png",
+              "name": "component_scheduler",
+              "desc": "任务调度系统",
+              "link": "http://127.0.0.1:21030"
+          }
+      ]
   }
 }
