@@ -90,6 +90,8 @@ module.exports = {
   pwa: {},
   // webpack-dev-server 相关配置
   devServer: {
+    // nginx代理报错Invalid Host header
+    disableHostCheck: true,
     open: process.platform === 'darwin',
     host: '0.0.0.0',
     port: 8080,
