@@ -52,16 +52,16 @@
               "link": "http://127.0.0.1:9122/"
           },
           {
-              "icon": "./static/images/showdoc.png",
-              "name": "Showdoc",
-              "desc": "[外部使用]在线API文档、技术文档工具",
-              "link": "http://127.0.0.1:5999/web/#/"
+              "icon": "./static/images/email.png",
+              "name": "邮箱系统",
+              "desc": "企业邮箱",
+              "link": "http://mail.jdjt.net/"
           },
           {
-              "icon": "./static/images/easymock.png",
-              "name": "Easymock",
-              "desc": "Mock server, 是一个可视化，并且能快速生成模拟数据的服务",
-              "link": "http://127.0.0.1:7300/login"
+              "icon": "./static/images/harbor.png",
+              "name": "容器仓库",
+              "desc": "容器私有仓库",
+              "link": "https://harbor.mvmyun.com/"
           }
       ]
   },
