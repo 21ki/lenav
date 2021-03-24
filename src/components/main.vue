@@ -31,7 +31,7 @@
                 <Content >
                     <NavSub :data="data" :spinShow="spinShow"></NavSub>
                 </Content>
-                <Footer class="layout-footer-center">Myki ©2021 Created by Lework <a href="https://gitlab.mvmyun.com/devops/lenav.git" target="_blank">GitHub</a></Footer>
+                <Footer class="layout-footer-center">nav ©2021 Created by Myki <a href="https://gitlab.mvmyun.com/devops/lenav.git" target="_blank">Gitlab</a></Footer>
             </Layout>
         </Layout>
         <BackTop></BackTop>

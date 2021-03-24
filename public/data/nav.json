@@ -29,8 +29,8 @@
             },
             {
                 "icon": "./static/images/yapi.png",
-                "name": "测试平台",
-                "desc": "测试平台",
+                "name": "接口管理平台",
+                "desc": "接口管理平台",
                 "link": "https://yapi.mvmyun.com/"
             },
             {
@@ -69,6 +69,12 @@
               "desc": "svn文件托管",
               "link": "https://192.168.1.154/svn/sjlh/kaifa/mymhotel/rc"
           },
+          {
+            "icon": "./static/images/grafana.png",
+            "name": "Grafana",
+            "desc": "Loki集成系统,监控系统",
+            "link": "https://192.168.1.154/svn/sjlh/kaifa/mymhotel/rc"
+        },
             {
                 "icon": "./static/images/harbor.png",
                 "name": "容器仓库",
