@@ -52,7 +52,7 @@
               "link": "http://127.0.0.1:9122/"
           },
           {
-              "icon": "./static/images/email.png",
+              "icon": "./static/images/email.jpg",
               "name": "邮箱系统",
               "desc": "企业邮箱",
               "link": "http://mail.jdjt.net/"
