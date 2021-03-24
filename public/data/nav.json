@@ -1,74 +1,111 @@
 {
-  "company": {
-      "title": "公司环境地址",
-      "name": "com",
-      "nav": [
-          {
-              "icon": "./static/images/jenkins.png",
-              "name": "Jenkins",
-              "desc": "Jenkins发版工具",
-              "link": "https://jks.mvmyun.com/"
+    "company": {
+        "title": "公司环境地址",
+        "name": "com",
+        "nav": [
+            {
+                "icon": "./static/images/jenkins.png",
+                "name": "Jenkins",
+                "desc": "Jenkins发版工具",
+                "link": "https://jks.mvmyun.com/"
+            },
+            {
+                "icon": "./static/images/confluence.png",
+                "name": "Confluence",
+                "desc": "Confluence, 技术文档wiki",
+                "link": "https://wiki.mvmyun.com/"
+            },
+            {
+                "icon": "./static/images/nexus.png",
+                "name": "nexus",
+                "desc": "nexus私服",
+                "link": "https://nexus.mvmyun.com/"
+            },
+            {
+                "icon": "./static/images/gitlab.png",
+                "name": "Gitlab",
+                "desc": "gitlab 代码托管",
+                "link": "https://gitlab.mvmyun.com/"
+            },
+            {
+                "icon": "./static/images/yapi.png",
+                "name": "测试平台",
+                "desc": "测试平台",
+                "link": "https://yapi.mvmyun.com/"
+            },
+            {
+              "icon": "./static/images/ssp.png",
+              "name": "账户系统",
+              "desc": "openldap,账户重置平台",
+              "link": "https://ssp.mvmyun.com/"
           },
           {
-              "icon": "./static/images/confluence.png",
-              "name": "Confluence",
-              "desc": "Confluence, 技术文档wiki",
-              "link": "https://wiki.mvmyun.com/"
+              "icon": "./static/images/chandao.png",
+              "name": "禅道",
+              "desc": "BUG管理平台",
+              "link": "http://192.168.1.112/"
           },
-          {
-              "icon": "./static/images/nexus.png",
-              "name": "nexus",
-              "desc": "nexus私服",
-              "link": "https://nexus.mvmyun.com/"
+            {
+                "icon": "./static/images/mysql.svg",
+                "name": "生产Sql发布平台",
+                "desc": "生产Sql发布平台",
+                "link": "http://127.0.0.1:9122/"
+            },
+            {
+                "icon": "./static/images/email.png",
+                "name": "邮箱系统",
+                "desc": "企业邮箱",
+                "link": "http://mail.jdjt.net/"
+            },
+            {
+              "icon": "./static/images/docker.png",
+              "name": "kuboard",
+              "desc": "测试环境kubernetes面板",
+              "link": "https://kuboard-dev.mvmyun.com/"
           },
-          {
-              "icon": "./static/images/gitlab.png",
-              "name": "Gitlab",
-              "desc": "gitlab 代码托管",
-              "link": "https://gitlab.mvmyun.com/"
-          },
-          {
-              "icon": "./static/images/yapi.png",
-              "name": "测试平台",
-              "desc": "测试平台",
-              "link": "https://yapi.mvmyun.com/"
-          },
-          {
-            "icon": "./static/images/ssp.png",
-            "name": "账户系统",
-            "desc": "openldap,账户重置平台",
-            "link": "https://ssp.mvmyun.com/"
-        },
-        {
-            "icon": "./static/images/chandao.png",
-            "name": "禅道",
-            "desc": "BUG管理平台",
-            "link": "http://192.168.1.112/"
-        },
-          {
-              "icon": "./static/images/mysql.svg",
-              "name": "生产Sql发布平台",
-              "desc": "生产Sql发布平台",
-              "link": "http://127.0.0.1:9122/"
-          },
-          {
-              "icon": "./static/images/email.png",
-              "name": "邮箱系统",
-              "desc": "企业邮箱",
-              "link": "http://mail.jdjt.net/"
-          },
-          {
-            "icon": "./static/images/docker.png",
-            "name": "kuboard",
-            "desc": "测试环境kubernetes面板",
-            "link": "https://kuboard-dev.mvmyun.com/"
-        },
-          {
-              "icon": "./static/images/harbor.png",
-              "name": "容器仓库",
-              "desc": "容器私有仓库",
-              "link": "https://harbor.mvmyun.com/"
-          }
-      ]
+            {
+                "icon": "./static/images/harbor.png",
+                "name": "容器仓库",
+                "desc": "容器私有仓库",
+                "link": "https://harbor.mvmyun.com/"
+            }
+        ]
+    },
+    "dev": {
+        "title": "测试环境地址",
+        "name": "dev",
+        "nav": [
+            {
+                "icon": "./static/images/tomcat.png",
+                "name": "ps-back-web",
+                "desc": "ps后台",
+                "link": "https://ps-back-web-dev.mvmyun.com/actuator/health"
+            },
+            {
+                "icon": "./static/images/tomcat.png",
+                "name": "ps-data-crs",
+                "desc": "ps-data-crs",
+                "link": "https://ps-data-crs-dev.mvmyun.com/actuator/health"
+            },
+            {
+                "icon": "./static/images/spring.png",
+                "name": "mvm-drp-admin",
+                "desc": "mvm-drp后台",
+                "link": "https://mvm-drp-admin-dev.mvmyun.com/actuator/health"
+            }
+        ]
+    },
+   
+    "pro": {
+        "title": "阿里云环境地址",
+        "name": "pro",
+        "nav": [
+            {
+                "icon": "./static/images/spring.png",
+                "name": "component_scheduler",
+                "desc": "任务调度系统",
+                "link": "http://127.0.0.1:21030"
+            }
+        ]
+    }
   }
-}
