@@ -63,6 +63,12 @@
               "desc": "测试环境kubernetes面板",
               "link": "https://kuboard-dev.mvmyun.com/"
           },
+          {
+              "icon": "./static/images/svn.png",
+              "name": "SVN",
+              "desc": "svn文件托管",
+              "link": "https://192.168.1.154/svn/sjlh/kaifa/mymhotel/rc"
+          },
             {
                 "icon": "./static/images/harbor.png",
                 "name": "容器仓库",
@@ -101,10 +107,10 @@
         "name": "pro",
         "nav": [
             {
-                "icon": "./static/images/spring.png",
-                "name": "component_scheduler",
-                "desc": "任务调度系统",
-                "link": "http://127.0.0.1:21030"
+                "icon": "./static/images/aliyun.png",
+                "name": "阿里云",
+                "desc": "阿里云后台",
+                "link": "https://cn.aliyun.com/"
             }
         ]
     }
