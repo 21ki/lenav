@@ -72,8 +72,8 @@
           {
             "icon": "./static/images/grafana.png",
             "name": "Grafana",
-            "desc": "Loki集成系统,监控系统",
-            "link": "https://192.168.1.154/svn/sjlh/kaifa/mymhotel/rc"
+            "desc": "Loki集成系统,监控系统,报警系统",
+            "link": "https://grafana-dev.mvmyun.com/"
         },
             {
                 "icon": "./static/images/harbor.png",
