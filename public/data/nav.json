@@ -117,7 +117,19 @@
                 "name": "阿里云",
                 "desc": "阿里云后台",
                 "link": "https://cn.aliyun.com/"
-            }
+            },
+            {
+                "icon": "./static/images/grafana.png",
+                "name": "Grafana",
+                "desc": "Loki集成系统,监控系统,报警系统",
+                "link": "https://grafana-aliyun.mvmyun.com/"
+            },
+            {
+                "icon": "./static/images/iis.png",
+                "name": "CRS接口",
+                "desc": "crs接口",
+                "link": "https://crs.mvmyun.com/KWS_MVM/AvailabilityService.asmx"
+            }          
         ]
     }
   }
